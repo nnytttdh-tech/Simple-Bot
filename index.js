@@ -1,6 +1,6 @@
 import { Client } from "meowsab";
 import { subBots, subs } from "./system/sub.js";
-import "moewsab/safe";
+import "meowsab/safe";
 import * as baileys from "baileys"; 
 import notif_ from "./system/notifications.js";
 
@@ -49,4 +49,3 @@ const start = async () => {
 start().catch((err) => {
   console.log(err.message)
 });
-
