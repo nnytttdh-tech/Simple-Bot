@@ -17,13 +17,13 @@ const client = new Client({
 /* ====== linking ======= */
   login: { 
     method: "pair", // or qr
-    number: "201554582851",
-    code: "VENI1234" 
+    number: "201229982764",
+    code: "ALHW1234" 
   },
 /* ====== owners ======= */
   owners: [
-    { jid: "201066826750@s.whatsapp.net", lid: "247579682029763@lid" },
-    { username: "v.nilx" }
+    { jid: "201211883781@s.whatsapp.net", lid: "177223537545428@lid" },
+    { username: "هواري" }
   ]
 });
 /* ======== System Plugins & Notifications ====== */
@@ -31,7 +31,7 @@ let config = client.config;
 config.info = {
   channel: {
     jid: "",
-    name: "VA/CHANNEL"
+    name: "هہ‏‏وآريـﮯ"
   },
 }
 /* ======== System Plugins & Notifications ====== */
