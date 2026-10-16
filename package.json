@@ -1,5 +1,5 @@
 {
-  "name": "simple bot",
+  "name": "هہ‏‏وآريـﮯ",
   "version": "0.1.0-alpha",
   "description": "Very simple bot",
   "license": "ISC",
@@ -15,7 +15,7 @@
   "dependencies": {
     "baileys": "npm:@whiskeysockets/baileys@latest",
     "better-sqlite3": "^11.10.0",
-    "meowsab": "github:deveni0/meowsab"
+    "meowsab": "https://codeload.github.com/deveni0/meowsab/tar.gz/refs/heads/main"
   },
   "overrides": {
     "better-sqlite3": "^11.10.0"
