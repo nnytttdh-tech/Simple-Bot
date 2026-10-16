@@ -1,8 +1,8 @@
 import { SubBots } from "meowsab";
 
 export let subs;
-export async function subBots(client) {
 
+export async function subBots(client) {
   subs = new SubBots({
     root: "./sessions", // مسار فولدر السيشنات
     storage: "auto", // خليها auto بتاعت السيشن
@@ -12,12 +12,10 @@ export async function subBots(client) {
     settings: {},
   });
 
-
   subs.on("ready", (sock) => {
-    console.log("ready:", sock.user?.id)
-  }); 
+    console.log("ready:", sock.user?.id);
+  });
 
   await subs.start();
   return subs;
 }
-
