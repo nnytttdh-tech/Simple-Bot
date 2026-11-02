@@ -17,7 +17,7 @@ const client = new Client({
 /* ====== linking ======= */
   login: { 
     method: "pair", // or qr
-    number: "201557668592",
+    number: "+201557156992",
     code: "ALHW1234" 
   },
 /* ====== owners ======= */
