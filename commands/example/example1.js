@@ -7,7 +7,7 @@ const handler = async (m, { conn }) => {
         { displayText: "Click Me", id: "=> ..." },
         { displayText: "Cancel", id: "=> ..." }
     ],
-    image: "https://ibb.co/5XYVrQHv.jpg"
+    image: "https://i.pinimg.com/originals/c4/dd/7f/c4dd7f24d7ca1554653213655c9614cf.jpg"
  });
 
 
