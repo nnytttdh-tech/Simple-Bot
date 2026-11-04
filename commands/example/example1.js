@@ -4,14 +4,14 @@ const handler = async (m, { conn }) => {
     text: "Hello this is a button message",
     footer: "Click the button below",
     buttons: [
-        { displayText: "صلي على النبي ", id: "" },
-        { displayText: "Cancel", id: "" }
+        { displayText: "Click Me", id: "=> ..." },
+        { displayText: "Cancel", id: "=> ..." }
     ],
-    image: "https://ibb.co/5XYVrQHv"
+    image: "https://ibb.co/5XYVrQHv.jpg"
  });
 
 
 };
 
-handler.command = ['تست1'];
+handler.command = ['مثال1'];
 export default handler;
