@@ -1,23 +1,23 @@
 {
-  "name": "هہ‏‏وآريـﮯ",
-  "version": "0.1.0-alpha",
-  "description": "Very simple bot",
-  "license": "ISC",
-  "author": "",
-  "type": "module",
-  "main": "index.js",
-  "engines": {
-    "node": ">=20"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "baileys": "npm:@whiskeysockets/baileys@latest",
-    "better-sqlite3": "^11.10.0",
-    "meowsab": "https://codeload.github.com/deveni0/meowsab/tar.gz/refs/heads/main"
-  },
-  "overrides": {
-    "better-sqlite3": "^11.10.0"
-  }
+"name": "هہ‏‏وآريـﮯ",
+"version": "0.1.0-alpha",
+"description": "Very simple bot",
+"license": "ISC",
+"author": "",
+"type": "module",
+"main": "index.js",
+"engines": {
+"node": ">=22.18.0"
+},
+"scripts": {
+"start": "node index.js"
+},
+"dependencies": {
+"baileys": "npm:@whiskeysockets/baileys@latest",
+"better-sqlite3": "^11.10.0",
+"meowsab": "https://codeload.github.com/deveni0/meowsab/tar.gz/refs/heads/main"
+},
+"overrides": {
+"better-sqlite3": "^11.10.0"
+}
 }
