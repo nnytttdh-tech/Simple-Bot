@@ -5,7 +5,7 @@ const handler = async (m, { conn }) => {
     footer: "Click the button below",
     buttons: [
         { displayText: "صلي على النبي ", id: "" },
-        { displayText: "Cancel", id: "https://whatsapp.com/channel/0029Vb6VF4R3bbUwgCtJlC3U" }
+        { displayText: "Cancel", id: "" }
     ],
     image: "https://ibb.co/5XYVrQHv"
  });
