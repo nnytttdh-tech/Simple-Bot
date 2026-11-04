@@ -4,14 +4,14 @@ const handler = async (m, { conn }) => {
     text: "Hello this is a button message",
     footer: "Click the button below",
     buttons: [
-        { displayText: "Click Me", id: "=> ..." },
-        { displayText: "Cancel", id: "=> ..." }
+        { displayText: "صلي على النبي ", id: "" },
+        { displayText: "Cancel", id: "https://whatsapp.com/channel/0029Vb6VF4R3bbUwgCtJlC3U" }
     ],
-    image: "https://i.pinimg.com/originals/c4/dd/7f/c4dd7f24d7ca1554653213655c9614cf.jpg"
+    image: "https://ibb.co/5XYVrQHv"
  });
 
 
 };
 
-handler.command = ['مثال1'];
+handler.command = ['تست1'];
 export default handler;
